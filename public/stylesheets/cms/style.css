@@ -1,0 +1,147 @@
+* { 
+padding : 0;
+margin : 0;
+} 
+body { 
+font-family : Arial, Helvetica, sans-serif;
+font-size : 13px;
+} 
+#wrapper { 
+margin : 0 auto;
+width : 922px;
+} 
+#header { 
+color : #333;
+width : 920px;
+float : left;
+height : 380px;
+margin : 0 0 5px 0;
+background-image : url(/images/logo2.png);
+background-repeat : no-repeat;
+} 
+
+#menu {
+width: 185px;
+margin-top: 10px;
+list-style: none;
+}
+#menu li {
+list-style: none;	
+}
+#menu li a {
+text-decoration: none;
+height: 32px;
+voice-family: "\"}\""; 
+voice-family: inherit;
+height: 24px;
+}
+#menu li a:link, #menu li a:visited {
+color: #000;
+display: block;
+background: url(/images/menu.gif);
+padding: 8px 0 0 20px;
+}
+#menu li a:hover {
+color: #000;
+background: url(/images/menu.gif) 0 -32px;
+padding: 8px 0 0 20px;
+}
+#menu li a:active {
+color: #fff;
+background: url(/images/menu.gif) 0 -64px;
+padding: 8px 0 0 25px;
+}
+#header h1 { 
+font-size : 2em;
+font-weight : lighter;
+color : #f29113;
+padding-top : 85px;
+padding-left : 570px;
+} 
+#header a { 
+color : #069;
+font-weight : bold;
+text-decoration : none;
+} 
+#header h2 { 
+font-size : 1.6em;
+font-weight : lighter;
+color : #62972d;
+padding-left : 470px;
+} 
+#leftcolumn { 
+color : #333;
+margin : 0 5px 5px 0;
+padding : 10px;
+height : 280px;
+width : 195px;
+float : left;
+} 
+#leftcolumn h3 { 
+width : 190px;
+padding-bottom : 10px;
+padding-left : 10px;
+font-family : "Alte Haas Grotesk", cursive;
+font-size : 1.8em;
+font-weight : lighter;
+color : #069;
+} 
+#rightcolumn { 
+float : right;
+color : #666;
+margin : 0 0 0px 0;
+height : 270px;
+width : 678px;
+display : inline;
+} 
+.content_left h3{
+color: #333;
+}
+.center { 
+text-align : center;
+padding-top : 3px;
+font-weight : bold;
+} 
+#widetext { 
+margin-top : 10px;
+padding-top : 10px;
+display : inline;
+float : left;
+width : 920px;
+border-top : solid #100b19;
+border-top : solid #666;
+} 
+#widetext h1 { 
+font-family : Times, "Times New Roman", serif;
+font-weight : lighter;
+margin-left : 20px;
+color : #ec845b;
+} 
+#widetext p { 
+font-size : 1.2em;
+color : #666;
+padding-left : 10px;
+padding-right : 10px;
+text-align : justify;
+padding-bottom : 10px;
+} 
+#widetext a { 
+color : #069;
+font-weight : bold;
+} 
+#footer { 
+margin-top : 5px;
+display : inline;
+float : left;
+width : 920px;
+text-align : center;
+padding-top : 10px;
+padding-bottom : 10px;
+border-top : 1px solid #666;
+} 
+#footer p { 
+color : #666;
+} 
+#footer a { 
+color : #666;
+} 

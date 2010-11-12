@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+<title><%= page_title %></title>
+
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link href="/stylesheets/style.css" rel="stylesheet" type="text/css" />
+
+<%= yield :html_head %>
+</head>
+  <body>
+ <%= cms_toolbar %>
+   <!-- Begin Wrapper -->
+   <div id="wrapper">
+	
+         <!-- Begin Header -->
+         <div id="header">
+			   
+		 </div>
+		 <!-- End Header -->
+
+		 <!-- Begin Left Column -->
+         <div id="leftcolumn">
+			<div id="menu">
+                <ul>
+                    
+  <li><a><%= render_menu %></a>
+                    
+                </li></ul>
+           </div>
+		</div>
+		 <!-- End Left Column -->
+
+		 <!-- Begin Right Column -->
+		 <div id="rightcolumn">
+            <div class="content_left">
+	   <%= container :main %>
+</div>			
+		 </div>
+		 <!-- End Right Column -->
+  
+	<div id="footer">
+		<p>
+			We are onsite and remote support computer 
+specialists, johannesburg, gauteng, rosebank, sandton, west rand 
+		</p>
+   </div>
+		 <!-- End Footer -->
+		 
+   </div>
+   <!-- End Wrapper -->
+   
+
+</body></html>
